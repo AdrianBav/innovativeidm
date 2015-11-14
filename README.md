@@ -1,2 +1,3 @@
-# innovativeidm
-Innovative IDM
+# Innovative IDM
+
+A WordPress client in need of a product catalog.
