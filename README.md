@@ -13,7 +13,7 @@ The page templates allow for some minor customizations but the real logic is the
 The page loops extracts custom fields from the post type and taxonomies.
 
 ```
-contentcustoms/
+innovativeidm/
 +-- loop/
 ¦	+-- loop-manufacturer.php
 ¦	+-- loop-manufacturers.php
