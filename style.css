@@ -1,0 +1,484 @@
+/*--
+	Theme Name: Innovative IDM
+	Theme URI: http://einsteinseyes.com/
+	Description: A theme for Wordpress 3.8.x
+	Author: Einstein's Eyes
+	Author URI: http://einsteinseyes.com/
+	Template: CherryFramework
+	Version: 3.1
+	MotoPress Version: 1.0
+--*/
+
+/* ----------------------------------------
+	Please, You may put custom CSS here
+---------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body {
+    color: #404040 !important;
+}
+
+h1 {
+    margin: 0 0 25px 0;
+}
+
+.header {
+	background: #006996 !important;
+}
+
+.header .top-header {
+	margin-bottom: 1px !important;
+	padding-top: 0 !important;
+}
+
+
+.header .top-header::before {
+    background: #fff !important;
+}
+
+.bottom-header {
+    margin-top: 0 !important;
+}
+
+.logo_h img {
+	max-width: 1170px;
+    width: 100%;
+}
+
+.header .top-header-card .tel {
+    background: none !important;
+    font: bold 22px/27px Roboto !important;
+}
+
+.header .search-form {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border: solid 1px #f38c3f;
+}
+
+.header .btn.search-form_is {
+    background: #000 !important;
+    color: #fff !important;
+    font: 400 16px/1.2em Asap;
+    margin-right: 0 !important;
+    margin-left: -2px;
+    padding: 7px 7px 6px 7px !important;
+}
+
+.header .search-form_it {
+    width: 150px !important;
+}
+
+.navbar-form input, .navbar-form select, .navbar-form .radio, .navbar-form .checkbox {
+    margin-top: 0 !important;
+}
+
+.header .top-header-card .tel a {
+    color: #f38c3f !important;
+}
+
+.header .social {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+.logo.pull-left .logo_h {
+    background: none !important;
+    float: left;
+    padding-right: 0 !important;
+}
+
+.bottom-header::before {
+	background: #064c6a !important;
+}
+
+.header .nav.nav__primary {
+    margin-bottom: 7px !important;
+    padding-top: 7px !important;
+}
+
+.header .nav.nav__primary ul.sf-menu li.current_page_item a, .header .nav.nav__primary ul.sf-menu .sfHover a {
+    color: #f38c3f !important;
+}
+
+.header .nav.nav__primary ul.sf-menu li a {
+    text-transform: none !important;
+}
+
+.header .nav.nav__primary ul.sf-menu li a:hover {
+	color: #f38c3f !important;
+}
+
+.header .nav.nav__primary ul.sf-menu li + li {
+    background: none !important;
+}
+
+.header .nav.nav__primary ul.sf-menu .sub-menu {
+    background: rgba(201,201,201,0.75)!important;
+    text-align: left;
+    padding: 20px 10px !important;
+    margin-top: 8px !important;
+
+}
+
+.header .nav.nav__primary ul.sf-menu .sub-menu li {
+    text-align: left !important;
+}
+
+.header .nav.nav__primary ul.sf-menu .sub-menu li a {
+    color: #404040 !important;
+    font-weight: bold !important;
+    font: 700 16px/35px Roboto !important;
+}
+
+.header .nav.nav__primary ul.sf-menu .sub-menu li a:hover {
+    color: #f38c3f !important;
+}
+
+
+.sf-sub-indicator {
+    background-color: transparent !important;
+    border: 0 none !important;
+    color: transparent !important;
+    font: 0px/0 a !important;
+    height: auto !important;
+    right: 0 !important;
+    text-indent: 0 !important;
+    text-shadow: none !important;
+    width: auto !important;
+}
+
+a > .sf-sub-indicator {
+    background: none !important;
+    top: 2px !important;
+}
+
+.header .sf-menu a.sf-with-ul {
+    padding: 0 23px 0 0 !important;
+}
+
+a .sf-sub-indicator {
+    left: auto !important;
+    margin-left: 0 !important;
+}
+
+a > .sf-sub-indicator::after {
+    color: #f38c3f;
+    font-weight: bold;
+    content: "\25BE";
+    font-family: FontAwesome;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.myslider {
+    margin-top: 0 !important;
+    margin-bottom: 35px !important;
+    border-bottom: none !important;
+}
+
+.sidebar h3 {
+    font: 900 24px/1.2em Roboto !important
+}
+
+.sidebar .widget[id^="archives"], .sidebar .widget[id^="catego"] {
+    background: #006996 none repeat scroll 0 0 !important;
+    padding: 21px 31px !important;
+}
+
+.sidebar .widget[id^="nav_menu"] {
+    background: #006996 none repeat scroll 0 0;
+    padding: 21px 31px;
+}
+    .sidebar .widget[id^="nav_menu"] h3 {
+        color: #fff;
+    }
+
+
+    .sidebar .widget[id^="nav_menu"] ul {
+        margin-left: 0;
+    }
+
+        .sidebar .widget[id^="nav_menu"] ul li {
+            background: rgba(0, 0, 0, 0) url("images/list.png") no-repeat scroll left 5px;
+            list-style: outside none none;
+            padding-bottom: 6px;
+            padding-left: 17px;
+        }
+
+            .sidebar .widget[id^="nav_menu"] ul li a {
+                color: #ffffff;
+                font: italic 900 14px/1.2em Lato;
+            }
+
+.content-holder {
+   background: #fff !important;
+}
+
+body.home .span2 {
+    width: 210px !important;
+}
+
+.home-bnr1 h5 {
+    border-bottom: none !important;
+    color: #006996 !important;
+    font: 700 17px/1.2em Roboto !important;
+    text-align: center !important;
+    min-height: 41px;
+    margin-bottom: 0 !important;
+}
+
+.content-holder {
+    padding-bottom: 22px !important; 
+}
+
+.title-section {
+    padding-bottom: 7px !important;
+    padding-top: 28px !important;
+}
+
+.title-section .title-header {
+    margin-bottom: 15px !important;
+}
+
+.post_wrapper {
+    margin-bottom: 20px !important;
+}
+
+.post__holder .post-header .post-title {
+    margin-bottom: 15px !important;
+}
+
+.post-header .post-title {
+    font: 700 18px/1.2em Lato !important;
+}
+
+.home .recent-posts_li h5 {
+    font-size: 20px;
+    line-height: 1.25em;
+    margin-bottom: 0;
+    
+}
+    .home .recent-posts_li h5 a {
+        color: #074c6b;
+    }
+
+.home .recent-posts_li {
+    margin: 0 0 12px 20px;
+}
+
+.btn, .btn:active, .btn:focus, .pagination li a, .comment-reply-link, .pager li a, body .pagination ul li a {
+    background: #006996 none repeat scroll 0 0 !important;
+}
+
+.banner-wrap .btn {
+    background: none !important;
+    color: #f38c3f !important;
+}
+
+.box {
+    background: #e0e4e7 !important;
+}
+
+.home .box {
+    padding: 10px 27px 12px 28px !important;
+    max-height: 430px;
+    min-height: 430px;
+    overflow: hidden;
+}
+
+.box-title h2 {
+    color: #404040 !important;
+}
+
+.box .list.styled.custom-list ul li {
+    background: none !important;
+    padding-left: 0 !important;
+}
+
+.box .list.styled.custom-list ul li:last-child img {
+    margin-bottom: 0 !important;
+}
+
+.manufacturers-logos {
+    background: #e0e4e7;
+    border-top: 4px solid #006494;
+    border-bottom: 4px solid #006494;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+}
+
+#content {
+    padding-top: 0 !important;
+}
+
+#sidebar {
+    padding-top: 0 !important;
+}
+
+.rslides_container {
+    margin-bottom: 0 !important;
+}
+
+.footer {
+    background: #f2f2f2 !important;
+}
+
+.footer .footer-text a {
+    color: #404040 !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+}
+
+.footer .bottom-card h4 {
+    font: 400 14px/1.2em Roboto !important;
+}
+
+.footer .bottom-card .tel a {
+    color: #f38c3f !important;
+    font: 700 21px/1.2em Roboto !important;
+}
+
+.footer .bottom-card .icon-phone {
+    color: #d9d9d9 !important;
+}
+
+.footer .bottom-card .icon-phone::before {
+    font-size: 21px !important;
+}
+
+.footer .meta_format a {
+    color: #006996 !important;
+}
+
+.footer .last-widg {
+    text-align: right !important;
+}
+
+
+.footer ul#badges {
+    list-style: none;
+}
+
+    .footer ul#badges li {
+        float: left;
+        display: block;
+        margin-right: 15px;
+    }
+
+    .footer ul#badges li img {
+        max-height: 92px;
+    }
+
+nav.footer-nav {
+    float: none !important;
+}
+
+    nav.footer-nav ul {
+        float: none !important;
+        text-align: center !important;
+        border-color: #d9d9d9 !important;
+        border-style: solid !important;
+        border-width: 1px 0 !important;
+        }
+    nav.footer-nav ul li {
+        display: inline !important;
+        float: none !important;
+        padding-left: 0 !important;
+    }
+
+        nav.footer-nav li a {
+            display: inline-block !important;
+            padding: 10px !important;
+            text-decoration: none !important;
+        }
+
+.nav.footer-nav {
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+.post_meta i, .post_meta_unite i { color:#f38c3f !important; }
+
+
+/* 
+ * Products
+ */
+
+/* taxonomy technology */
+#taxonomy-technology .technology-section {
+    float: left;
+}
+#taxonomy-technology .technology-section > figure {
+    float: left;
+}
+#taxonomy-technology .technology-section > div {
+    overflow: hidden;
+}
+
+#taxonomy-technology .logos {
+    list-style: none;
+    margin-top: 25px;
+}
+#taxonomy-technology .logos li {
+    float: left;
+    display: block;
+    margin-right: 15px;
+}
+#taxonomy-technology .logos li img {
+    max-height: 92px;
+}
+
+/* page manufacturers */
+#page-manufacturers .featured-logos li {
+    border: 1px solid #d9d9d9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#page-manufacturers .featured-logos li span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;    
+}
+#page-manufacturers .featured-logos li img {
+    max-height: 90px;
+    max-width: 200px;
+    vertical-align: middle;
+}
+#page-manufacturers .featured-logos li a:hover img {
+    opacity: .8;
+    /* For IE8 and earlier */
+    filter:alpha(opacity=80);
+}
+#page-manufacturers .manufactures-list,
+#page-manufacturers .manufactures-list li {
+    margin-bottom: 0;
+}
+
+/* taxonomy manufacturer */
+#taxonomy-manufacturer .featured-products {
+    margin-top: 45px;
+}
+
+/* product */
+#product .related-products {
+    margin-top: 45px;   
+}
+#product .product-section {
+    float: left;
+    margin: 25px 0;
+}
+#product .product-section > figure {
+    float: left;
+}
+#product .product-section > div {
+    overflow: hidden;
+}
